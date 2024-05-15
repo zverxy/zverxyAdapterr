@@ -25,18 +25,18 @@ header {
         color:rgb(244, 239, 245)
       }
       h2 {
-        font-size: 60px;
+        font-size: 30px;
     }
     .center-both {
         position: relative;
         border: solid rgb(0, 0, 0);
-        height: 150px;
+        height: 110px;
       }
       P { text-align: center }
       H2 , h4 { text-align: center }
      h4 {
         font-family: 'person', sans-serif;
-        font-size: 4em;
+        font-size: 2em;
       }
       h4 , body{
         font-family: 'potato', sans-serif;
@@ -54,13 +54,13 @@ header {
     }
     button{
         font-family: 'potato', sans-serif;
-        font-size: 2em;
+        font-size: 1.2em;
       }
       button {
-        padding: 20px 60px;
+        padding: 10px 40px;
         outline: none;
         border: rgb(0, 0, 0);
-        border-radius: 40px;
+        border-radius: 10px;
         background-color: #19151b;
         cursor: pointer;
         color :#a69aaf
@@ -75,15 +75,10 @@ header {
     button{
     box-shadow: 0px 0px 30px rgba(63, 56, 66, 0.486);
       }
-header{
-    font-family: 'person', sans-serif;
-    font-size: 2em;
-
-}
 
 header , h2 {
   font-family: 'person', sans-serif;
-  font-size: 4em;
+  font-size: 2.5em;
 }
 /****
 page-anim.css
@@ -209,6 +204,16 @@ page-anim.css
   to {
       text-shadow: 0 0 6px rgba(87, 52, 72, 0.98), 0 0 30px rgba(95, 27, 84, 0.42), 0 0 12px rgba(146, 85, 131, 0.58), 0 0 22px rgba(74, 51, 77, 0.84), 0 0 38px rgba(71, 42, 77, 0.88), 0 0 60px #6d5d77;
   }
+}
+header nav{
+  display:none;
+  position: absolute;
+  top: 80px;
+  background: #f5f5f5;
+  width: 100%;
+}
+header nav li {
+   display: block;
 }
 
 body {
