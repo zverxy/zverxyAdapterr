@@ -11,7 +11,7 @@ header {
 }
 	  body {
          background:
-			linear-gradient(rgb(49, 38, 53), rgb(13, 17, 22)),
+			linear-gradient(rgb(0, 0, 0), rgb(1, 4, 10)),
 			url("");
 			background-repeat: no-repeat;
          background-attachment:fixed;
@@ -44,41 +44,43 @@ header {
       }
       header { text-align: center }
       body { text-align: center }
-      body {
-        background: url(zverx.png);
-      }
 
-    body, button{
-      text-shadow: 0px 0px 30px rgb(77, 65, 77);
-
-    }
-    button{
-        font-family: 'potato', sans-serif;
-        font-size: 1.2em;
+      body, button{
+        text-shadow: 0px 0px 30px rgb(0, 0, 0);
+      
       }
-      button {
-        padding: 10px 40px;
-        outline: none;
-        border: rgb(0, 0, 0);
-        border-radius: 10px;
-        background-color: #19151b;
-        cursor: pointer;
-        color :#a69aaf
+      button{
+          font-family: 'potato', sans-serif;
+          font-size: 1.2em;
+        }
+        button {
+          padding: 30px 70px;
+          outline: none;
+          border: rgb(0, 0, 0);
+          border-radius: 10px;
+          background-color: rgb(1, 4, 10);
+          cursor: pointer;
+          color :#d0ccd3
+        }
+        button:hover{
+          background-color: #0c0c0e;
+        transform: translateY(-20px);
+        }
+        button { 
+        transition: all 0.3s ease 0.1s;
       }
-      button:hover{
-        background-color: #2d2731;
-      transform: translateY(-20px);
-      }
-      button { 
-      transition: all 0.3s ease 0.1s;
-    }
-    button{
-    box-shadow: 0px 0px 30px rgba(63, 56, 66, 0.486);
-      }
-
+      button{
+      box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.486);
+        }
+      
+        header { text-align: center }
+        body { text-align: center }
+        header {
+          color:rgb(255, 255, 255)
+        }
 header , h2 {
   font-family: 'person', sans-serif;
-  font-size: 1em;
+  font-size: 2.5em;
 }
 /****
 page-anim.css
@@ -140,7 +142,7 @@ page-anim.css
 .slideshow-item-text h5 {
   font-size: 22px;
   margin: 0 0 10px 0;
-  color: #f4bfff;
+  color: #6d6d6d;
 }
 .slideshow-item-text p {
   font-size: 15px;
@@ -199,10 +201,10 @@ page-anim.css
 }
 @keyframes neon-1 {
   from {
-      text-shadow: 0 0 6px rgba(80, 39, 74, 0.92), 0 0 30px rgba(155, 37, 106, 0.34), 0 0 12px rgba(129, 91, 107, 0.52), 0 0 21px rgba(54, 35, 78, 0.92), 0 0 34px rgba(67, 50, 70, 0.78), 0 0 54px rgba(112, 80, 100, 0.92);
+      text-shadow: 0 0 6px rgba(255, 255, 255, 0.92), 0 0 30px rgba(114, 114, 114, 0.34), 0 0 12px rgba(126, 126, 126, 0.52), 0 0 21px rgba(109, 109, 109, 0.92), 0 0 34px rgba(122, 122, 122, 0.78), 0 0 54px rgba(247, 247, 247, 0.92);
   }
   to {
-      text-shadow: 0 0 6px rgba(87, 52, 72, 0.98), 0 0 30px rgba(95, 27, 84, 0.42), 0 0 12px rgba(146, 85, 131, 0.58), 0 0 22px rgba(74, 51, 77, 0.84), 0 0 38px rgba(71, 42, 77, 0.88), 0 0 60px #6d5d77;
+      text-shadow: 0 0 6px rgba(161, 161, 161, 0.98), 0 0 30px rgba(139, 139, 139, 0.42), 0 0 12px rgba(97, 97, 97, 0.58), 0 0 22px rgba(99, 99, 99, 0.84), 0 0 38px rgba(163, 163, 163, 0.88), 0 0 60px #6d5d77;
   }
 }
 header nav{
